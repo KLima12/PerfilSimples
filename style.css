@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  /*Conteudo Header !!! */
+
+header { 
+    background-color: white;
+    height: 100px;   
+    display: flex; 
+    
+}
+
+div.conteudoHeader { 
+    display: flex;
+    margin: auto;
+    
+}
+
+div.conteudoHeader h1 { 
+    color: rgb(49, 121, 168);
+    margin: auto;
+}
+
+
+
+div.conteudoHeader img  { 
+    border-radius: 150px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+div.conteudoHeader img:hover { 
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/*Conteudo Principal !!!!*/
+
+
+div.informaçoesPerfil { 
+    display: flex;
+    background-color: lightblue;
+    height: 80px;
+}
+
+div.informaçoesPerfil h1 { 
+    text-align: center;
+    margin: auto;
+    color: rgb(59, 10, 10);
+}
+
+section.informaçoes  {
+    background-color: lightgray;
+    height: 175px;
+}
+
+section.informaçoes p { 
+    font-weight: bolder;
+    padding: 10px;
+}
+
+section.informaçoes h1  {
+    text-align: center;
+}
+
+section.informaçoes > p#contatos { 
+    margin-top: 5px;
+}
+
+section.informaçoes h1 { 
+    background-color: rgb(49, 121, 168);
+    color: white;
+}
+
+div.galeria h1 { 
+    padding: 10px;
+}
+
+div.galeria img { 
+    width: 100%;
+    height: auto;
+}
+
