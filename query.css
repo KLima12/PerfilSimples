@@ -1,19 +1,137 @@
 @charset 'UTF-8';
 
-/*Mobile devices – 320px — 480px.
-iPads, Tablets – 481px — 768px.
-Small screens, laptops – 769px — 1024px.
-Desktops, large screens – 1025px — 1200px.
-Extra large screens, TV – 1201px, and more.*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-@media screen and (min-width:420px) {
-    section.informaçoes { 
-        display: flex;
-        flex-direction: row-reverse;
-        
-    }
+  /*Conteudo Header !!! */
 
+header { 
+    background-color: white;
+    height: 100px;   
+    display: flex; 
     
+}
 
+div.conteudoHeader { 
+    display: flex;
+    margin: auto;
+    
+}
+
+div.conteudoHeader h1 { 
+    color: rgb(49, 121, 168);
+    margin: auto;
+}
+
+
+
+div.conteudoHeader img  { 
+    border-radius: 150px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+div.conteudoHeader img:hover { 
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/*Conteudo Principal !!!!*/
+
+
+div.informaçoesPerfil { 
+    display: flex;
+    background-color: rgb(25, 134, 218);
+    height: 80px;
+    
+}
+
+div.informaçoesPerfil h1 { 
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+section.informaçoes  {
+    background-color: lightgray;
+    /*display: flex;*/
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: auto;
+}
+
+section.informaçoes p { 
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+section.informaçoes > p#contatos { 
+    margin-top: 5px;
+}
+
+section.informaçoes h1 { 
+    background-color: rgb(49, 121, 168);
+    color: white;
+    text-align: center;
+}
+
+
+div.galeria h1 { 
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #988840;
+}
+
+div.galeria { 
+    display: flex;
+    flex-direction:  column;
    
 }
+
+
+
+div.galeria img {
+    width: 50%;
+    margin: auto;
+    
+}
+
+div.contacts { 
+    margin: auto;
+    font-size: 1.5em;
+   
+}
+
+/*Footer */
+
+footer { 
+    background-color: #00562d;
+    height: 60px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    transition: transform 0.3s ease;
+    
+}
+
+footer a { 
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+footer a:hover { 
+    transform: scale(1.1);
+}
+
+
