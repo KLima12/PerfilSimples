@@ -48,7 +48,7 @@ div.conteudoHeader img:hover {
 
 div.informaçoesPerfil { 
     display: flex;
-    background-color: rgb(25, 134, 218);
+    background-color: #00562d;
     height: 80px;
     
 }
