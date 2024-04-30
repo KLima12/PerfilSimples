@@ -48,28 +48,29 @@ div.conteudoHeader img:hover {
 
 div.informaçoesPerfil { 
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(25, 134, 218);
     height: 80px;
+    
 }
 
 div.informaçoesPerfil h1 { 
     text-align: center;
     margin: auto;
-    color: rgb(59, 10, 10);
+    color: white;
 }
 
 section.informaçoes  {
     background-color: lightgray;
-    height: 175px;
+    /*display: flex;*/
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: auto;
 }
 
 section.informaçoes p { 
     font-weight: bolder;
     padding: 10px;
-}
-
-section.informaçoes h1  {
-    text-align: center;
+    
 }
 
 section.informaçoes > p#contatos { 
@@ -79,14 +80,58 @@ section.informaçoes > p#contatos {
 section.informaçoes h1 { 
     background-color: rgb(49, 121, 168);
     color: white;
+    text-align: center;
 }
+
 
 div.galeria h1 { 
     padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #988840;
 }
 
-div.galeria img { 
-    width: 100%;
-    height: auto;
+div.galeria { 
+    display: flex;
+    flex-direction:  column;
+   
 }
+
+
+
+div.galeria img {
+    width: 50%;
+    margin: auto;
+    
+}
+
+div.contacts { 
+    margin: auto;
+    font-size: 1.5em;
+   
+}
+
+/*Footer */
+
+footer { 
+    background-color: #00562d;
+    height: 60px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    transition: transform 0.3s ease;
+    
+}
+
+footer a { 
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+footer a:hover { 
+    transform: scale(1.1);
+}
+
 
